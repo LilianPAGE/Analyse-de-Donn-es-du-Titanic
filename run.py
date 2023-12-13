@@ -6,5 +6,5 @@ if __name__ == '__main__':
     """
     Main
     """
-    process_data()
+    process_data("Data/train.csv")
     train_model("Data/processed_train.csv")
