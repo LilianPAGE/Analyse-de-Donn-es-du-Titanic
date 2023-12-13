@@ -23,7 +23,7 @@ def process_data(file_path):
 
     # Convertir le type de la colonne 'Sex' en int64
     df['Sex'] = df['Sex'].map({'male': 0, 'female': 1})
-    df['Sex'] = df['Sex'].astype('int64')
+    df['Sex'] = df['Sex'].astype('float64')
 
     # Supprimer les colonnes 'Name', 'Ticket', 'Cabin'
     df = df.drop(['Name', 'Ticket', 'Cabin'], axis=1)

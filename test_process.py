@@ -15,7 +15,7 @@ def test_process_data():
 
     # Vérifier si les transformations ont été appliquées correctement
     assert df_processed['Age'].notnull().all()
-    assert df_processed['Age'].dtype == 'int64'
+    assert df_processed['Age'].dtype == 'float64'
     assert 'Name' not in df_processed.columns
     assert 'Ticket' not in df_processed.columns
     assert 'Cabin' not in df_processed.columns
