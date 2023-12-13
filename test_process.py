@@ -1,9 +1,10 @@
 import pandas as pd
 import process
 
+
 def test_process_data():
 
-    #Emplacement du fichier
+    # Emplacement du fichier
     path = "Data/train.csv"
 
     # Appeler la fonction de traitement

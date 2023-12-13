@@ -1,6 +1,7 @@
 import pandas as pd
 import train
 
+
 def test_train_model():
     # Créer un DataFrame de test
     data = {

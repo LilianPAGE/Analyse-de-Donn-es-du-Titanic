@@ -1,5 +1,6 @@
 import pandas as pd
 
+
 def process_data(file_path):
     """
     Prétraitement des données du Titanic.
