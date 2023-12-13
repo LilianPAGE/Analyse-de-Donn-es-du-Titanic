@@ -10,7 +10,7 @@ def test_process_data():
     process.process_data(path)
 
     # Charger les données traitées
-    df_processed = pd.read_csv("processed_test_data.csv")
+    df_processed = pd.read_csv("Data/processed_train.csv")
 
     # Vérifier si les transformations ont été appliquées correctement
     assert 'Age' not in df_processed.columns
@@ -20,4 +20,4 @@ def test_process_data():
 
     # Supprimer les fichiers temporaires
     import os
-    os.remove("processed_test_data.csv")
+    os.remove("Data/processed_train.csv")
