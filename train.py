@@ -29,6 +29,3 @@ def train_model(file_path):
     # Évaluer l'exactitude
     accuracy = accuracy_score(y_test, y_pred)
     print(f"Exactitude : {accuracy}")
-
-if name == "main":
-    train_model("Data/processed_train.csv")
