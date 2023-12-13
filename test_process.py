@@ -32,6 +32,3 @@ def test_process_data():
     import os
     os.remove("test_data.csv")
     os.remove("processed_test_data.csv")
-
-if name == "main":
-    test_process_data()

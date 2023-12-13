@@ -22,6 +22,3 @@ def test_train_model():
     # Supprimer les fichiers temporaires
     import os
     os.remove("test_data.csv")
-
-if name == "main":
-    test_train_model()
