@@ -14,10 +14,11 @@ def test_process_data():
     df_processed = pd.read_csv("Data/processed_train.csv")
 
     # Vérifier si les transformations ont été appliquées correctement
-    assert 'Age' not in df_processed.columns
-    assert 'Family_Size' in df_processed.columns
-    assert 'Sex' in df_processed.columns
-    assert 'Embarked' not in df_processed.columns
+    assert df_processed['Age'].notnull().all()
+    assert df_processed['Age'].dtype == 'int64'
+    assert 'Name' not in df_processed.columns
+    assert 'Ticket' not in df_processed.columns
+    assert 'Cabin' not in df_processed.columns
 
     # Supprimer les fichiers temporaires
     import os
