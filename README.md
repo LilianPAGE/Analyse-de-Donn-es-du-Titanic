@@ -1,13 +1,13 @@
 # Analyse-de-Donnes-du-Titanic
 Ce projet incroyable a été réalisé avec la collaboration de personnes talentueuses. Voici les contributeurs principaux :S
 
--data architect 1: Diego TORRES
--data architect 2: Lilian PAGE
--data engineer 1: Terence DURIMEL
--data engineer 2: Yanisse MOUNIB
--datascientist 1: Aubin Djiomene KAMTSA
--datascientist 2: Jorelle Sonia BEKO KOM
--datascientist 3: Marwan ELFAKIH
+- data architect 1: Diego TORRES
+- data architect 2: Lilian PAGE
+- data engineer 1: Terence DURIMEL
+- data engineer 2: Yanisse MOUNIB
+- datascientist 1: Aubin Djiomene KAMTSA
+- datascientist 2: Jorelle Sonia BEKO KOM
+- datascientist 3: Marwan ELFAKIH
 
 ## Description du Projet
 
