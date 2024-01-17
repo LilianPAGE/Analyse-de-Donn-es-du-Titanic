@@ -5,9 +5,9 @@ Ce projet incroyable a été réalisé avec la collaboration de personnes talent
 - data architect 2: Lilian PAGE
 - data engineer 1: Terence DURIMEL
 - data engineer 2: Yanisse MOUNIB
+- data engineer 3: Marwan ELFAKIH
 - datascientist 1: Aubin Djiomene KAMTSA
 - datascientist 2: Jorelle Sonia BEKO KOM
-- datascientist 3: Marwan ELFAKIH
 
 ## Description du Projet
 
