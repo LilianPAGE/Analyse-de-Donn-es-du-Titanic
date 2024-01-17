@@ -1,17 +1,17 @@
 import pandas as pd
-import process
+from Src import process
 
 
 def test_process_data():
 
     # Emplacement du fichier
-    path = "Data/train.csv"
+    path = "../Data/train.csv"
 
     # Appeler la fonction de traitement
     process.process_data(path)
 
     # Charger les données traitées
-    df_processed = pd.read_csv("Data/processed_train.csv")
+    df_processed = pd.read_csv("../Data/processed_train.csv")
 
     # Vérifier si les transformations ont été appliquées correctement
     assert df_processed['Age'].notnull().all()
@@ -22,4 +22,4 @@ def test_process_data():
 
     # Supprimer les fichiers temporaires
     import os
-    os.remove("Data/processed_train.csv")
+    os.remove("../Data/processed_train.csv")
