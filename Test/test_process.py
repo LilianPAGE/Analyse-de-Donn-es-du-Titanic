@@ -1,5 +1,5 @@
 import pandas as pd
-from Src import process
+import Src.process as process
 
 
 def test_process_data():

@@ -1,5 +1,5 @@
 import pandas as pd
-from Src import train
+import src.train as train
 
 
 def test_train_model():
