@@ -1,5 +1,5 @@
 # Analyse-de-Donnes-du-Titanic
-Ce projet incroyable a été réalisé avec la collaboration de personnes talentueuses. Voici les contributeurs principaux :S
+Ce projet incroyable a été réalisé avec la collaboration de personnes talentueuses. Voici les contributeurs principaux :
 
 - data architect 1: Diego TORRES
 - data architect 2: Lilian PAGE
